@@ -60,14 +60,62 @@
 			children = (
 				BA06440524730A96001C95DB /* AppDelegate.swift */,
 				BA06440724730A96001C95DB /* SceneDelegate.swift */,
-				BA06440924730A96001C95DB /* ViewController.swift */,
-				BA06440B24730A96001C95DB /* Main.storyboard */,
+				BA06441C24730B14001C95DB /* PresentationLayer */,
+				BA06441D24730B21001C95DB /* ServeceLayer */,
+				BA06441E24730B6A001C95DB /* CoreLayer */,
 				BA06441124730A98001C95DB /* Assets.xcassets */,
 				BA06441324730A98001C95DB /* LaunchScreen.storyboard */,
 				BA06441624730A98001C95DB /* Info.plist */,
 				BA06440E24730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld */,
 			);
 			path = SurpriseMeTestTask;
+			sourceTree = "<group>";
+		};
+		BA06441C24730B14001C95DB /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BA06441F24730BD1001C95DB /* MainScreen */,
+				BA06442124730BF6001C95DB /* CountryPickerScreen */,
+				BA06442024730BDD001C95DB /* SMSCodeScreen */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		BA06441D24730B21001C95DB /* ServeceLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServeceLayer;
+			sourceTree = "<group>";
+		};
+		BA06441E24730B6A001C95DB /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		BA06441F24730BD1001C95DB /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BA06440924730A96001C95DB /* ViewController.swift */,
+				BA06440B24730A96001C95DB /* Main.storyboard */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		BA06442024730BDD001C95DB /* SMSCodeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SMSCodeScreen;
+			sourceTree = "<group>";
+		};
+		BA06442124730BF6001C95DB /* CountryPickerScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CountryPickerScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9N36M22CA6;
 				INFOPLIST_FILE = SurpriseMeTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9N36M22CA6;
 				INFOPLIST_FILE = SurpriseMeTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
