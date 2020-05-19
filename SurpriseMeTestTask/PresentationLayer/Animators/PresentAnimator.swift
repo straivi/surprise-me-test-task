@@ -38,12 +38,6 @@ extension PresentAnimator: UIViewControllerAnimatedTransitioning{
     let snapshot = fromVC.view.snapshotView(afterScreenUpdates: false) ?? UIView()
     containerView.insertSubview(snapshot, belowSubview: toVC.view)
     toVC.view.frame = startFrame
-      
-//    UIView.animate(withDuration: transitionDuration, option: [], (using: transitionContext), animations: {
-//      toVC.view.frame = finalFrame
-//    }) { (_) in
-//      transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-//    }
     
     UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: [.curveEaseOut], animations: {
       toVC.view.frame = finalFrame
