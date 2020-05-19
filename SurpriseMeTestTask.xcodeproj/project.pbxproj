@@ -14,6 +14,10 @@
 		BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA06440E24730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld */; };
 		BA06441224730A98001C95DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA06441124730A98001C95DB /* Assets.xcassets */; };
 		BA06441524730A98001C95DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06441324730A98001C95DB /* LaunchScreen.storyboard */; };
+		BA0644232473417D001C95DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0644222473417D001C95DB /* MainViewController.swift */; };
+		BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA064425247345FC001C95DB /* DismissAnimator.swift */; };
+		BA06442924734D3C001C95DB /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442824734D3C001C95DB /* Interactor.swift */; };
+		BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442A2473F4A6001C95DB /* PresentAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		BA06441124730A98001C95DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA06441424730A98001C95DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA06441624730A98001C95DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0644222473417D001C95DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA064425247345FC001C95DB /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		BA06442824734D3C001C95DB /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		BA06442A2473F4A6001C95DB /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,8 @@
 		BA06441C24730B14001C95DB /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BA06442724734D23001C95DB /* Interactor */,
+				BA064424247345DD001C95DB /* Animators */,
 				BA06441F24730BD1001C95DB /* MainScreen */,
 				BA06442124730BF6001C95DB /* CountryPickerScreen */,
 				BA06442024730BDD001C95DB /* SMSCodeScreen */,
@@ -100,6 +110,7 @@
 			children = (
 				BA06440924730A96001C95DB /* ViewController.swift */,
 				BA06440B24730A96001C95DB /* Main.storyboard */,
+				BA0644222473417D001C95DB /* MainViewController.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -116,6 +127,23 @@
 			children = (
 			);
 			path = CountryPickerScreen;
+			sourceTree = "<group>";
+		};
+		BA064424247345DD001C95DB /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				BA064425247345FC001C95DB /* DismissAnimator.swift */,
+				BA06442A2473F4A6001C95DB /* PresentAnimator.swift */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		BA06442724734D23001C95DB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BA06442824734D3C001C95DB /* Interactor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +218,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA06440A24730A96001C95DB /* ViewController.swift in Sources */,
+				BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */,
 				BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */,
 				BA06440624730A96001C95DB /* AppDelegate.swift in Sources */,
+				BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */,
 				BA06440824730A96001C95DB /* SceneDelegate.swift in Sources */,
+				BA06442924734D3C001C95DB /* Interactor.swift in Sources */,
+				BA0644232473417D001C95DB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
