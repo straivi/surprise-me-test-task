@@ -34,9 +34,8 @@ class ViewController: UIViewController {
     let singin = sb.instantiateViewController(withIdentifier: String(describing: MainViewController.self))
     let sininVC = singin as! MainViewController
     
-    sininVC.transitioningDelegate = self
     sininVC.interactor = interactor
-    
+    sininVC.transitioningDelegate = self
     present(sininVC, animated: true, completion: nil)
   }
   

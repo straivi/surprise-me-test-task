@@ -31,7 +31,7 @@ extension PresentAnimator: UIViewControllerAnimatedTransitioning{
     let bottomLeftCorner = CGPoint(x: 0, y: screenBounds.height)
     let startFrame = CGRect(origin: bottomLeftCorner, size: screenBounds.size)
     
-    let topLeftCorner = CGPoint(x: 0, y: 0)
+    let topLeftCorner = CGPoint(x: 0, y: max(0, screenBounds.height - toVC.view.frame.height))
     let finalFrame = CGRect(origin: topLeftCorner, size: screenBounds.size)
     
     

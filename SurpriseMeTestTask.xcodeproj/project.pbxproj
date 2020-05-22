@@ -17,9 +17,16 @@
 		BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA064425247345FC001C95DB /* DismissAnimator.swift */; };
 		BA06442924734D3C001C95DB /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442824734D3C001C95DB /* Interactor.swift */; };
 		BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442A2473F4A6001C95DB /* PresentAnimator.swift */; };
-		BA06442D24746432001C95DB /* singinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA06442C24746432001C95DB /* singinView.xib */; };
-		BA06442F247467BC001C95DB /* singinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442E247467BC001C95DB /* singinView.swift */; };
 		BA06443124746D6C001C95DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06443024746D6C001C95DB /* MainViewController.swift */; };
+		BADAB74824749FF5005562A9 /* IURLNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB74724749FF5005562A9 /* IURLNetworkService.swift */; };
+		BADAB74A2474A00C005562A9 /* URLNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB7492474A00C005562A9 /* URLNetworkService.swift */; };
+		BADAB74D2474A258005562A9 /* ImageLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB74C2474A258005562A9 /* ImageLoadService.swift */; };
+		BADAB74F2474A2D4005562A9 /* IImageLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB74E2474A2D4005562A9 /* IImageLoadService.swift */; };
+		BADAB7512474A325005562A9 /* DataFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB7502474A325005562A9 /* DataFetchService.swift */; };
+		BADAB7532474A338005562A9 /* IDataFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB7522474A338005562A9 /* IDataFetchService.swift */; };
+		BADAB7572475417C005562A9 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB7562475417C005562A9 /* ServiceAssembly.swift */; };
+		BADAB759247541CE005562A9 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB758247541CE005562A9 /* CoreAssembly.swift */; };
+		BADAB75B24754420005562A9 /* TrackImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB75A24754420005562A9 /* TrackImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +42,16 @@
 		BA064425247345FC001C95DB /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
 		BA06442824734D3C001C95DB /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		BA06442A2473F4A6001C95DB /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
-		BA06442C24746432001C95DB /* singinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = singinView.xib; sourceTree = "<group>"; };
-		BA06442E247467BC001C95DB /* singinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singinView.swift; sourceTree = "<group>"; };
 		BA06443024746D6C001C95DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BADAB74724749FF5005562A9 /* IURLNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IURLNetworkService.swift; sourceTree = "<group>"; };
+		BADAB7492474A00C005562A9 /* URLNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLNetworkService.swift; sourceTree = "<group>"; };
+		BADAB74C2474A258005562A9 /* ImageLoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadService.swift; sourceTree = "<group>"; };
+		BADAB74E2474A2D4005562A9 /* IImageLoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IImageLoadService.swift; sourceTree = "<group>"; };
+		BADAB7502474A325005562A9 /* DataFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetchService.swift; sourceTree = "<group>"; };
+		BADAB7522474A338005562A9 /* IDataFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDataFetchService.swift; sourceTree = "<group>"; };
+		BADAB7562475417C005562A9 /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
+		BADAB758247541CE005562A9 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
+		BADAB75A24754420005562A9 /* TrackImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +87,7 @@
 				BA06440524730A96001C95DB /* AppDelegate.swift */,
 				BA06440724730A96001C95DB /* SceneDelegate.swift */,
 				BA06441C24730B14001C95DB /* PresentationLayer */,
-				BA06441D24730B21001C95DB /* ServeceLayer */,
+				BA06441D24730B21001C95DB /* ServiceLayer */,
 				BA06441E24730B6A001C95DB /* CoreLayer */,
 				BA06441124730A98001C95DB /* Assets.xcassets */,
 				BA06441324730A98001C95DB /* LaunchScreen.storyboard */,
@@ -95,16 +109,20 @@
 			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
-		BA06441D24730B21001C95DB /* ServeceLayer */ = {
+		BA06441D24730B21001C95DB /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BADAB7542475415B005562A9 /* Assembly */,
+				BADAB74B2474A1F6005562A9 /* NetworkService */,
 			);
-			path = ServeceLayer;
+			path = ServiceLayer;
 			sourceTree = "<group>";
 		};
 		BA06441E24730B6A001C95DB /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BADAB75524754168005562A9 /* Assembly */,
+				BADAB74624749FE0005562A9 /* Network */,
 			);
 			path = CoreLayer;
 			sourceTree = "<group>";
@@ -114,8 +132,6 @@
 			children = (
 				BA06440924730A96001C95DB /* ViewController.swift */,
 				BA06440B24730A96001C95DB /* Main.storyboard */,
-				BA06442C24746432001C95DB /* singinView.xib */,
-				BA06442E247467BC001C95DB /* singinView.swift */,
 				BA06443024746D6C001C95DB /* MainViewController.swift */,
 			);
 			path = MainScreen;
@@ -150,6 +166,43 @@
 				BA06442824734D3C001C95DB /* Interactor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BADAB74624749FE0005562A9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BADAB74724749FF5005562A9 /* IURLNetworkService.swift */,
+				BADAB7492474A00C005562A9 /* URLNetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BADAB74B2474A1F6005562A9 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				BADAB74C2474A258005562A9 /* ImageLoadService.swift */,
+				BADAB74E2474A2D4005562A9 /* IImageLoadService.swift */,
+				BADAB7502474A325005562A9 /* DataFetchService.swift */,
+				BADAB7522474A338005562A9 /* IDataFetchService.swift */,
+				BADAB75A24754420005562A9 /* TrackImageService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		BADAB7542475415B005562A9 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BADAB7562475417C005562A9 /* ServiceAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		BADAB75524754168005562A9 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BADAB758247541CE005562A9 /* CoreAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA06441524730A98001C95DB /* LaunchScreen.storyboard in Resources */,
-				BA06442D24746432001C95DB /* singinView.xib in Resources */,
 				BA06441224730A98001C95DB /* Assets.xcassets in Resources */,
 				BA06440D24730A96001C95DB /* Main.storyboard in Resources */,
 			);
@@ -224,15 +276,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADAB7532474A338005562A9 /* IDataFetchService.swift in Sources */,
 				BA06440A24730A96001C95DB /* ViewController.swift in Sources */,
 				BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */,
+				BADAB75B24754420005562A9 /* TrackImageService.swift in Sources */,
+				BADAB74D2474A258005562A9 /* ImageLoadService.swift in Sources */,
+				BADAB74824749FF5005562A9 /* IURLNetworkService.swift in Sources */,
 				BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */,
+				BADAB74A2474A00C005562A9 /* URLNetworkService.swift in Sources */,
 				BA06440624730A96001C95DB /* AppDelegate.swift in Sources */,
-				BA06442F247467BC001C95DB /* singinView.swift in Sources */,
+				BADAB7512474A325005562A9 /* DataFetchService.swift in Sources */,
 				BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */,
+				BADAB759247541CE005562A9 /* CoreAssembly.swift in Sources */,
 				BA06440824730A96001C95DB /* SceneDelegate.swift in Sources */,
 				BA06442924734D3C001C95DB /* Interactor.swift in Sources */,
+				BADAB7572475417C005562A9 /* ServiceAssembly.swift in Sources */,
 				BA06443124746D6C001C95DB /* MainViewController.swift in Sources */,
+				BADAB74F2474A2D4005562A9 /* IImageLoadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +306,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		BA06441324730A98001C95DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
