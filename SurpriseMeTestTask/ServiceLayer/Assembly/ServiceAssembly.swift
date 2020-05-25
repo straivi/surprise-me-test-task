@@ -9,7 +9,9 @@
 import UIKit
 
 protocol IServiceAssembly {
-  var imageURLService: IDataFetchService { get }
+  var trackImageService: ITrackImageService { get }
+  
+  var smsRequestService: ISMSRequest { get }
 }
 
 class ServiceAssembly: IServiceAssembly {
@@ -20,9 +22,11 @@ class ServiceAssembly: IServiceAssembly {
     self.coreAssembly = coreAssembly
   }
   
-  lazy var imageLoadService: IImageLoadService = ImageLoadService(networkService: coreAssembly.networkService)
+  private lazy var imageLoadService: IImageLoadService = ImageLoadService(networkService: coreAssembly.networkService)
+  private lazy var postRequestService: IPOSTRequestService = POSTRequestService(networkService: coreAssembly.networkService)
   
-  lazy var imageURLService: IDataFetchService = DataFetchService(imageLoadService: imageLoadService)
+  private lazy var imageURLService: IDataFetchService = DataFetchService(imageLoadService: imageLoadService)
   
   lazy var trackImageService: ITrackImageService = TrackImageService(imageURLService: imageURLService)
+  lazy var smsRequestService: ISMSRequest = SMSRequest(postRequest: postRequestService)
 }

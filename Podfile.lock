@@ -1,16 +1,16 @@
 PODS:
-  - CountryPickerView (3.1.2)
+  - NKVPhonePicker (2.1.0)
 
 DEPENDENCIES:
-  - CountryPickerView
+  - NKVPhonePicker
 
 SPEC REPOS:
   trunk:
-    - CountryPickerView
+    - NKVPhonePicker
 
 SPEC CHECKSUMS:
-  CountryPickerView: 08ff5f391143aa79e2ae21b0eaa5c15395a80d22
+  NKVPhonePicker: 28ea127fb6a9c380e34dc1c56d38afc6fa09f143
 
-PODFILE CHECKSUM: b7da14a44f81f0e8090f03829af5f2f58cee9eb7
+PODFILE CHECKSUM: a98a887bbd587a82982c221f29877218eb6b8d56
 
 COCOAPODS: 1.9.2

@@ -114,6 +114,9 @@
                                                         <state key="normal" title="Sing in as another person">
                                                             <color key="titleColor" red="0.38276070359999997" green="0.79135495420000002" blue="0.831387341" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="adidionalButtonAction:" destination="5Vf-jT-B50" eventType="touchUpInside" id="wnp-zp-qha"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -126,26 +129,32 @@
                                                 <state key="normal" title="Confirm and get code">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="confirmButtonAction:" destination="5Vf-jT-B50" eventType="touchUpInside" id="lPJ-n0-HO6"/>
+                                                </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="K9b-MC-e8f">
                                                 <rect key="frame" x="15" y="321" width="290" height="50"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xad-wN-uTx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="55.5" height="50"/>
-                                                        <state key="normal" title="Button"/>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xad-wN-uTx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="44" height="50"/>
+                                                        <state key="normal" title="Button" image="trackPlaceholder"/>
+                                                        <connections>
+                                                            <action selector="countruChooseTapped:" destination="5Vf-jT-B50" eventType="touchUpInside" id="9d5-fn-4LK"/>
+                                                        </connections>
                                                     </button>
                                                     <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="+1" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Weu-W0-2Uj">
-                                                        <rect key="frame" x="55.5" y="0.0" width="50" height="50"/>
+                                                        <rect key="frame" x="44" y="0.0" width="100" height="50"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="WWq-JP-Cmy"/>
+                                                            <constraint firstAttribute="width" constant="100" id="WWq-JP-Cmy"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="phone number" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vBC-TQ-czb">
-                                                        <rect key="frame" x="105.5" y="0.0" width="184.5" height="50"/>
+                                                        <rect key="frame" x="144" y="0.0" width="146" height="50"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -155,6 +164,7 @@
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="L1m-AN-ElS" secondAttribute="trailing" constant="15" id="0gN-kE-5eX"/>
                                             <constraint firstItem="L1m-AN-ElS" firstAttribute="leading" secondItem="4AN-rg-Q0a" secondAttribute="leading" constant="15" id="4rV-nf-vYy"/>
@@ -181,6 +191,9 @@
                                             <constraint firstAttribute="trailing" secondItem="syn-Qh-F2V" secondAttribute="trailing" constant="15" id="xs4-m4-nIJ"/>
                                             <constraint firstAttribute="bottom" secondItem="8Sg-dh-9ey" secondAttribute="bottom" constant="30" id="zWI-5Q-jH4"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="bfk-8X-AxH" appends="YES" id="bNF-WL-sSO"/>
+                                        </connections>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -226,9 +239,11 @@
                         <viewLayoutGuide key="safeArea" id="hl4-X9-09m"/>
                     </view>
                     <connections>
+                        <outlet property="aditionalSingupStack" destination="8Sg-dh-9ey" id="YxP-MR-8zo"/>
                         <outlet property="backgroundView" destination="4AN-rg-Q0a" id="vM4-oX-8qa"/>
                         <outlet property="confirmeButtonView" destination="syn-Qh-F2V" id="aw9-jI-17W"/>
                         <outlet property="countryCodeButtonView" destination="xad-wN-uTx" id="e9Y-Ca-KsJ"/>
+                        <outlet property="countryCodeTextField" destination="Weu-W0-2Uj" id="Nvn-TP-ass"/>
                         <outlet property="greetingLabel" destination="F20-PB-T1L" id="mnP-wl-dh0"/>
                         <outlet property="phonenumberTextField" destination="vBC-TQ-czb" id="onb-3x-5Dn"/>
                         <outlet property="pullLabelView" destination="E6i-12-KtE" id="SqP-RT-0Hb"/>
@@ -245,6 +260,11 @@
                         <action selector="handleGesture:" destination="5Vf-jT-B50" id="QUS-zy-TgA"/>
                     </connections>
                 </panGestureRecognizer>
+                <tapGestureRecognizer id="bfk-8X-AxH">
+                    <connections>
+                        <action selector="closeKeyboard:" destination="5Vf-jT-B50" id="ReG-oH-ng6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1038.75" y="130.98591549295776"/>
         </scene>

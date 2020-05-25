@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,12 +13,17 @@
 		BA06440A24730A96001C95DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440924730A96001C95DB /* ViewController.swift */; };
 		BA06440D24730A96001C95DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06440B24730A96001C95DB /* Main.storyboard */; };
 		BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA06440E24730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld */; };
-		BA06441224730A98001C95DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA06441124730A98001C95DB /* Assets.xcassets */; };
 		BA06441524730A98001C95DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06441324730A98001C95DB /* LaunchScreen.storyboard */; };
 		BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA064425247345FC001C95DB /* DismissAnimator.swift */; };
 		BA06442924734D3C001C95DB /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442824734D3C001C95DB /* Interactor.swift */; };
 		BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442A2473F4A6001C95DB /* PresentAnimator.swift */; };
 		BA06443124746D6C001C95DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06443024746D6C001C95DB /* MainViewController.swift */; };
+		BA6416E7247AB735000D94AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6416E6247AB735000D94AE /* Assets.xcassets */; };
+		BA6416F0247AD2A7000D94AE /* POSTRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416EF247AD2A7000D94AE /* POSTRequestService.swift */; };
+		BA6416F4247AE534000D94AE /* IPOSTRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416F3247AE534000D94AE /* IPOSTRequestService.swift */; };
+		BA6416F6247AE582000D94AE /* SMSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416F5247AE582000D94AE /* SMSRequest.swift */; };
+		BA6416F8247B11C5000D94AE /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */; };
+		BA6416FA247B11CE000D94AE /* SMSCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */; };
 		BAD518B0247951970045BE75 /* CountryCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD518AF247951970045BE75 /* CountryCodeViewController.swift */; };
 		BAD518B2247951BF0045BE75 /* CountryCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD518B1247951BF0045BE75 /* CountryCodeViewController.storyboard */; };
 		BADAB74824749FF5005562A9 /* IURLNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB74724749FF5005562A9 /* IURLNetworkService.swift */; };
@@ -40,13 +45,18 @@
 		BA06440924730A96001C95DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA06440C24730A96001C95DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA06440F24730A96001C95DB /* SurpriseMeTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurpriseMeTestTask.xcdatamodel; sourceTree = "<group>"; };
-		BA06441124730A98001C95DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA06441424730A98001C95DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA06441624730A98001C95DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA064425247345FC001C95DB /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
 		BA06442824734D3C001C95DB /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		BA06442A2473F4A6001C95DB /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
 		BA06443024746D6C001C95DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA6416E6247AB735000D94AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6416EF247AD2A7000D94AE /* POSTRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSTRequestService.swift; sourceTree = "<group>"; };
+		BA6416F3247AE534000D94AE /* IPOSTRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPOSTRequestService.swift; sourceTree = "<group>"; };
+		BA6416F5247AE582000D94AE /* SMSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSRequest.swift; sourceTree = "<group>"; };
+		BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
+		BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SMSCodeViewController.storyboard; sourceTree = "<group>"; };
 		BAD518AF247951970045BE75 /* CountryCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeViewController.swift; sourceTree = "<group>"; };
 		BAD518B1247951BF0045BE75 /* CountryCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryCodeViewController.storyboard; sourceTree = "<group>"; };
 		BADAB74724749FF5005562A9 /* IURLNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IURLNetworkService.swift; sourceTree = "<group>"; };
@@ -108,8 +118,8 @@
 				BA06441C24730B14001C95DB /* PresentationLayer */,
 				BA06441D24730B21001C95DB /* ServiceLayer */,
 				BA06441E24730B6A001C95DB /* CoreLayer */,
-				BA06441124730A98001C95DB /* Assets.xcassets */,
 				BA06441324730A98001C95DB /* LaunchScreen.storyboard */,
+				BA6416E6247AB735000D94AE /* Assets.xcassets */,
 				BA06441624730A98001C95DB /* Info.plist */,
 				BA06440E24730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld */,
 			);
@@ -160,6 +170,8 @@
 		BA06442024730BDD001C95DB /* SMSCodeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */,
+				BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */,
 			);
 			path = SMSCodeScreen;
 			sourceTree = "<group>";
@@ -194,7 +206,6 @@
 				F135E510F3001D93AB879E65 /* Pods-SurpriseMeTestTask.debug.xcconfig */,
 				9070B680152CB660AFE5D722 /* Pods-SurpriseMeTestTask.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,6 +235,9 @@
 				BADAB7502474A325005562A9 /* DataFetchService.swift */,
 				BADAB7522474A338005562A9 /* IDataFetchService.swift */,
 				BADAB75A24754420005562A9 /* TrackImageService.swift */,
+				BA6416EF247AD2A7000D94AE /* POSTRequestService.swift */,
+				BA6416F3247AE534000D94AE /* IPOSTRequestService.swift */,
+				BA6416F5247AE582000D94AE /* SMSRequest.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -304,10 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6416FA247B11CE000D94AE /* SMSCodeViewController.storyboard in Resources */,
 				BA06441524730A98001C95DB /* LaunchScreen.storyboard in Resources */,
 				BAD518B2247951BF0045BE75 /* CountryCodeViewController.storyboard in Resources */,
-				BA06441224730A98001C95DB /* Assets.xcassets in Resources */,
 				BA06440D24730A96001C95DB /* Main.storyboard in Resources */,
+				BA6416E7247AB735000D94AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +378,15 @@
 				BADAB7532474A338005562A9 /* IDataFetchService.swift in Sources */,
 				BA06440A24730A96001C95DB /* ViewController.swift in Sources */,
 				BAD518B0247951970045BE75 /* CountryCodeViewController.swift in Sources */,
+				BA6416F4247AE534000D94AE /* IPOSTRequestService.swift in Sources */,
 				BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */,
+				BA6416F0247AD2A7000D94AE /* POSTRequestService.swift in Sources */,
 				BADAB75B24754420005562A9 /* TrackImageService.swift in Sources */,
 				BADAB74D2474A258005562A9 /* ImageLoadService.swift in Sources */,
 				BADAB74824749FF5005562A9 /* IURLNetworkService.swift in Sources */,
 				BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */,
 				BADAB74A2474A00C005562A9 /* URLNetworkService.swift in Sources */,
+				BA6416F8247B11C5000D94AE /* SMSCodeViewController.swift in Sources */,
 				BA06440624730A96001C95DB /* AppDelegate.swift in Sources */,
 				BADAB7512474A325005562A9 /* DataFetchService.swift in Sources */,
 				BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */,
@@ -376,6 +394,7 @@
 				BA06440824730A96001C95DB /* SceneDelegate.swift in Sources */,
 				BA06442924734D3C001C95DB /* Interactor.swift in Sources */,
 				BADAB7572475417C005562A9 /* ServiceAssembly.swift in Sources */,
+				BA6416F6247AE582000D94AE /* SMSRequest.swift in Sources */,
 				BA06443124746D6C001C95DB /* MainViewController.swift in Sources */,
 				BADAB74F2474A2D4005562A9 /* IImageLoadService.swift in Sources */,
 			);
@@ -407,6 +426,7 @@
 		BA06441724730A98001C95DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -438,6 +458,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -467,6 +488,7 @@
 		BA06441824730A98001C95DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -498,6 +520,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
