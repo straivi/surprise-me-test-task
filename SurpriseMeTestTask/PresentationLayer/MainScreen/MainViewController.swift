@@ -164,7 +164,14 @@ class MainViewController: UIViewController {
     setupLayoutChange()
     
     let afterResizeBackground = backgroundView.frame.height
-    let sizeDiference = afterResizeBackground - beforeResizeBackground
+    var sizeDiference = afterResizeBackground - beforeResizeBackground
+    
+    let window = UIApplication.shared.keyWindow
+    let topPadding = window?.safeAreaInsets.top
+    let bottomPadding = window?.safeAreaInsets.bottom
+    sizeDiference -= topPadding ?? 0
+    sizeDiference -= bottomPadding ?? 0
+    
     scrollView.contentSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height + sizeDiference)
     
     aditionButtonView.isUserInteractionEnabled = false
