@@ -3,21 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2EB4F10F62A1DD8BB47A2A /* libPods-SurpriseMeTestTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A133379909F82BB5DE03CF88 /* libPods-SurpriseMeTestTask.a */; };
 		BA06440624730A96001C95DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440524730A96001C95DB /* AppDelegate.swift */; };
 		BA06440824730A96001C95DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440724730A96001C95DB /* SceneDelegate.swift */; };
 		BA06440A24730A96001C95DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440924730A96001C95DB /* ViewController.swift */; };
 		BA06440D24730A96001C95DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06440B24730A96001C95DB /* Main.storyboard */; };
 		BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA06440E24730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld */; };
-		BA06441224730A98001C95DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA06441124730A98001C95DB /* Assets.xcassets */; };
 		BA06441524730A98001C95DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06441324730A98001C95DB /* LaunchScreen.storyboard */; };
 		BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA064425247345FC001C95DB /* DismissAnimator.swift */; };
 		BA06442924734D3C001C95DB /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442824734D3C001C95DB /* Interactor.swift */; };
 		BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06442A2473F4A6001C95DB /* PresentAnimator.swift */; };
 		BA06443124746D6C001C95DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06443024746D6C001C95DB /* MainViewController.swift */; };
+		BA6416E7247AB735000D94AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6416E6247AB735000D94AE /* Assets.xcassets */; };
+		BA6416F0247AD2A7000D94AE /* POSTRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416EF247AD2A7000D94AE /* POSTRequestService.swift */; };
+		BA6416F4247AE534000D94AE /* IPOSTRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416F3247AE534000D94AE /* IPOSTRequestService.swift */; };
+		BA6416F6247AE582000D94AE /* SMSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416F5247AE582000D94AE /* SMSRequest.swift */; };
+		BA6416F8247B11C5000D94AE /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */; };
+		BA6416FA247B11CE000D94AE /* SMSCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */; };
+		BAD518B0247951970045BE75 /* CountryCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD518AF247951970045BE75 /* CountryCodeViewController.swift */; };
+		BAD518B2247951BF0045BE75 /* CountryCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD518B1247951BF0045BE75 /* CountryCodeViewController.storyboard */; };
 		BADAB74824749FF5005562A9 /* IURLNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB74724749FF5005562A9 /* IURLNetworkService.swift */; };
 		BADAB74A2474A00C005562A9 /* URLNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB7492474A00C005562A9 /* URLNetworkService.swift */; };
 		BADAB74D2474A258005562A9 /* ImageLoadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAB74C2474A258005562A9 /* ImageLoadService.swift */; };
@@ -30,19 +38,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9070B680152CB660AFE5D722 /* Pods-SurpriseMeTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurpriseMeTestTask.release.xcconfig"; path = "Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		A133379909F82BB5DE03CF88 /* libPods-SurpriseMeTestTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SurpriseMeTestTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA06440224730A96001C95DB /* SurpriseMeTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurpriseMeTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA06440524730A96001C95DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA06440724730A96001C95DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BA06440924730A96001C95DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA06440C24730A96001C95DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA06440F24730A96001C95DB /* SurpriseMeTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurpriseMeTestTask.xcdatamodel; sourceTree = "<group>"; };
-		BA06441124730A98001C95DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA06441424730A98001C95DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA06441624730A98001C95DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA064425247345FC001C95DB /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
 		BA06442824734D3C001C95DB /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		BA06442A2473F4A6001C95DB /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
 		BA06443024746D6C001C95DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BA6416E6247AB735000D94AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6416EF247AD2A7000D94AE /* POSTRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSTRequestService.swift; sourceTree = "<group>"; };
+		BA6416F3247AE534000D94AE /* IPOSTRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPOSTRequestService.swift; sourceTree = "<group>"; };
+		BA6416F5247AE582000D94AE /* SMSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSRequest.swift; sourceTree = "<group>"; };
+		BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
+		BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SMSCodeViewController.storyboard; sourceTree = "<group>"; };
+		BA6416FB247C74E3000D94AE /* NKVPhonePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NKVPhonePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD518AF247951970045BE75 /* CountryCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeViewController.swift; sourceTree = "<group>"; };
+		BAD518B1247951BF0045BE75 /* CountryCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryCodeViewController.storyboard; sourceTree = "<group>"; };
 		BADAB74724749FF5005562A9 /* IURLNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IURLNetworkService.swift; sourceTree = "<group>"; };
 		BADAB7492474A00C005562A9 /* URLNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLNetworkService.swift; sourceTree = "<group>"; };
 		BADAB74C2474A258005562A9 /* ImageLoadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadService.swift; sourceTree = "<group>"; };
@@ -52,6 +70,7 @@
 		BADAB7562475417C005562A9 /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
 		BADAB758247541CE005562A9 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		BADAB75A24754420005562A9 /* TrackImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackImageService.swift; sourceTree = "<group>"; };
+		F135E510F3001D93AB879E65 /* Pods-SurpriseMeTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurpriseMeTestTask.debug.xcconfig"; path = "Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +78,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2EB4F10F62A1DD8BB47A2A /* libPods-SurpriseMeTestTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B0D01E2CCE499E36299D0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA6416FB247C74E3000D94AE /* NKVPhonePicker.framework */,
+				A133379909F82BB5DE03CF88 /* libPods-SurpriseMeTestTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA0643F924730A96001C95DB = {
 			isa = PBXGroup;
 			children = (
 				BA06440424730A96001C95DB /* SurpriseMeTestTask */,
 				BA06440324730A96001C95DB /* Products */,
+				BAC50C71DF2EA648AB55F872 /* Pods */,
+				46B0D01E2CCE499E36299D0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,8 +120,8 @@
 				BA06441C24730B14001C95DB /* PresentationLayer */,
 				BA06441D24730B21001C95DB /* ServiceLayer */,
 				BA06441E24730B6A001C95DB /* CoreLayer */,
-				BA06441124730A98001C95DB /* Assets.xcassets */,
 				BA06441324730A98001C95DB /* LaunchScreen.storyboard */,
+				BA6416E6247AB735000D94AE /* Assets.xcassets */,
 				BA06441624730A98001C95DB /* Info.plist */,
 				BA06440E24730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld */,
 			);
@@ -100,6 +131,7 @@
 		BA06441C24730B14001C95DB /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				BAD518AE247951380045BE75 /* CountryCode */,
 				BA06442724734D23001C95DB /* Interactor */,
 				BA064424247345DD001C95DB /* Animators */,
 				BA06441F24730BD1001C95DB /* MainScreen */,
@@ -140,6 +172,8 @@
 		BA06442024730BDD001C95DB /* SMSCodeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */,
+				BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */,
 			);
 			path = SMSCodeScreen;
 			sourceTree = "<group>";
@@ -168,6 +202,24 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		BAC50C71DF2EA648AB55F872 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F135E510F3001D93AB879E65 /* Pods-SurpriseMeTestTask.debug.xcconfig */,
+				9070B680152CB660AFE5D722 /* Pods-SurpriseMeTestTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAD518AE247951380045BE75 /* CountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				BAD518AF247951970045BE75 /* CountryCodeViewController.swift */,
+				BAD518B1247951BF0045BE75 /* CountryCodeViewController.storyboard */,
+			);
+			path = CountryCode;
+			sourceTree = "<group>";
+		};
 		BADAB74624749FE0005562A9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +237,9 @@
 				BADAB7502474A325005562A9 /* DataFetchService.swift */,
 				BADAB7522474A338005562A9 /* IDataFetchService.swift */,
 				BADAB75A24754420005562A9 /* TrackImageService.swift */,
+				BA6416EF247AD2A7000D94AE /* POSTRequestService.swift */,
+				BA6416F3247AE534000D94AE /* IPOSTRequestService.swift */,
+				BA6416F5247AE582000D94AE /* SMSRequest.swift */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -212,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA06441924730A98001C95DB /* Build configuration list for PBXNativeTarget "SurpriseMeTestTask" */;
 			buildPhases = (
+				19F79450DA797390E9DD22A6 /* [CP] Check Pods Manifest.lock */,
 				BA0643FE24730A96001C95DB /* Sources */,
 				BA0643FF24730A96001C95DB /* Frameworks */,
 				BA06440024730A96001C95DB /* Resources */,
+				11A4E6B61340828A8134D9F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,13 +320,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6416FA247B11CE000D94AE /* SMSCodeViewController.storyboard in Resources */,
 				BA06441524730A98001C95DB /* LaunchScreen.storyboard in Resources */,
-				BA06441224730A98001C95DB /* Assets.xcassets in Resources */,
+				BAD518B2247951BF0045BE75 /* CountryCodeViewController.storyboard in Resources */,
 				BA06440D24730A96001C95DB /* Main.storyboard in Resources */,
+				BA6416E7247AB735000D94AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A4E6B61340828A8134D9F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19F79450DA797390E9DD22A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SurpriseMeTestTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA0643FE24730A96001C95DB /* Sources */ = {
@@ -278,12 +379,16 @@
 			files = (
 				BADAB7532474A338005562A9 /* IDataFetchService.swift in Sources */,
 				BA06440A24730A96001C95DB /* ViewController.swift in Sources */,
+				BAD518B0247951970045BE75 /* CountryCodeViewController.swift in Sources */,
+				BA6416F4247AE534000D94AE /* IPOSTRequestService.swift in Sources */,
 				BA064426247345FC001C95DB /* DismissAnimator.swift in Sources */,
+				BA6416F0247AD2A7000D94AE /* POSTRequestService.swift in Sources */,
 				BADAB75B24754420005562A9 /* TrackImageService.swift in Sources */,
 				BADAB74D2474A258005562A9 /* ImageLoadService.swift in Sources */,
 				BADAB74824749FF5005562A9 /* IURLNetworkService.swift in Sources */,
 				BA06441024730A96001C95DB /* SurpriseMeTestTask.xcdatamodeld in Sources */,
 				BADAB74A2474A00C005562A9 /* URLNetworkService.swift in Sources */,
+				BA6416F8247B11C5000D94AE /* SMSCodeViewController.swift in Sources */,
 				BA06440624730A96001C95DB /* AppDelegate.swift in Sources */,
 				BADAB7512474A325005562A9 /* DataFetchService.swift in Sources */,
 				BA06442B2473F4A6001C95DB /* PresentAnimator.swift in Sources */,
@@ -291,6 +396,7 @@
 				BA06440824730A96001C95DB /* SceneDelegate.swift in Sources */,
 				BA06442924734D3C001C95DB /* Interactor.swift in Sources */,
 				BADAB7572475417C005562A9 /* ServiceAssembly.swift in Sources */,
+				BA6416F6247AE582000D94AE /* SMSRequest.swift in Sources */,
 				BA06443124746D6C001C95DB /* MainViewController.swift in Sources */,
 				BADAB74F2474A2D4005562A9 /* IImageLoadService.swift in Sources */,
 			);
@@ -322,6 +428,7 @@
 		BA06441724730A98001C95DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -353,6 +460,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -382,6 +490,7 @@
 		BA06441824730A98001C95DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -413,6 +522,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -435,6 +545,7 @@
 		};
 		BA06441A24730A98001C95DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F135E510F3001D93AB879E65 /* Pods-SurpriseMeTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +565,7 @@
 		};
 		BA06441B24730A98001C95DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9070B680152CB660AFE5D722 /* Pods-SurpriseMeTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

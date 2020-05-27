@@ -8,6 +8,15 @@
 
 import UIKit
 
+struct User {
+  var id: String
+  var name: String
+  var phone: String
+  var email: String
+}
+
+var user = User(id: "1", name: "Ivan", phone: "+79222691973", email: "example@gmail.com")
+
 class ViewController: UIViewController {
 
   //UI
@@ -33,7 +42,7 @@ class ViewController: UIViewController {
     let sb = UIStoryboard(name: "Main", bundle: nil)
     let singin = sb.instantiateViewController(withIdentifier: String(describing: MainViewController.self))
     let sininVC = singin as! MainViewController
-    
+
     sininVC.interactor = interactor
     sininVC.transitioningDelegate = self
     present(sininVC, animated: true, completion: nil)

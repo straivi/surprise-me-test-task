@@ -14,7 +14,7 @@ class DismissAnimator: NSObject {
 
 extension DismissAnimator: UIViewControllerAnimatedTransitioning{
   func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-    return 0.6
+    return 0.3
   }
   
   func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -31,11 +31,6 @@ extension DismissAnimator: UIViewControllerAnimatedTransitioning{
     let bottomLeftCorner = CGPoint(x: 0, y: screenBounds.height)
     let finalFrame = CGRect(origin: bottomLeftCorner, size: screenBounds.size)
     
-//    UIView.animate(withDuration: transitionDuration(using: transitionContext), option: [.curveEaseIn], animations: {
-//      fromVC.view.frame = finalFrame
-//    }) { (_) in
-//      transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-//    }
     UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: [.curveEaseIn], animations: {
          fromVC.view.frame = finalFrame
        }) { (_) in

@@ -13,7 +13,7 @@ class PresentAnimator: NSObject {
 
 extension PresentAnimator: UIViewControllerAnimatedTransitioning{
   func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-    return 0.6
+    return 0.3
   }
   
   func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
@@ -31,12 +31,17 @@ extension PresentAnimator: UIViewControllerAnimatedTransitioning{
     let bottomLeftCorner = CGPoint(x: 0, y: screenBounds.height)
     let startFrame = CGRect(origin: bottomLeftCorner, size: screenBounds.size)
     
-    let topLeftCorner = CGPoint(x: 0, y: max(0, screenBounds.height - toVC.view.frame.height))
+    let topLeftCorner = CGPoint(x: 0, y: 0)
     let finalFrame = CGRect(origin: topLeftCorner, size: screenBounds.size)
     
     
     let snapshot = fromVC.view.snapshotView(afterScreenUpdates: false) ?? UIView()
+    let shadow = UIView()
+    shadow.frame = screenBounds
+    shadow.backgroundColor = .black
+    shadow.alpha = 0.3
     containerView.insertSubview(snapshot, belowSubview: toVC.view)
+    containerView.insertSubview(shadow, belowSubview: toVC.view)
     toVC.view.frame = startFrame
     
     UIView.animate(withDuration: transitionDuration(using: transitionContext), delay: 0, options: [.curveEaseOut], animations: {

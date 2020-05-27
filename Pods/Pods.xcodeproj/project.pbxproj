@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DA861EAEED1F45BAE1BD6833B3FFB7 /* NKVSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73914465BDDA340CC369583D5811CE /* NKVSource.swift */; };
+		07F66F2E053E394BC5996383E2C4D05B /* NKVLocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1135368E9F2FB422FD713CD6670748A6 /* NKVLocalizationHelper.swift */; };
+		0821FEFA1FDD4593C45095BD098AFA0C /* NKVSourcesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6CA7B6421CB86953FAE96CCC124D14 /* NKVSourcesHelper.swift */; };
+		097A10ADD4897408AC6975618222A3BB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E40A559EDC487FE891971F67EC3780 /* Country.swift */; };
+		284EF6589A90AA736CA11FAF3802AB1F /* NKVPhonePickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6168523FC9FDA6D434061CCF1FE2177 /* NKVPhonePickerPresenter.swift */; };
+		33737DFC422ABC2E21F0A65FF7009961 /* NKVFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5031C920B441F4DB16733B9883CAD32D /* NKVFlagView.swift */; };
+		516F472AACEDE47AABD14D83EE5CA88A /* PhoneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D6F5CA016A6FDE02A27E27FF1956C /* PhoneExtension.swift */; };
+		7F8F646A27098DAB40F02F90989044D5 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227D5AF487057EF100C1875CD7ACA6D /* CountriesViewController.swift */; };
+		8939CD0ADEF4D15D39319531E92A71B4 /* Pods-SurpriseMeTestTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C5963B57EC9B944CC6A9EBEBDF4DB4 /* Pods-SurpriseMeTestTask-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A607C81C6C5E398A8BD59791A37F264B /* NKVPhonePickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982A48C7C0CF351932B5129884BFD41 /* NKVPhonePickerTextField.swift */; };
+		C4451C3E7A70F8CEC3EDF9275E5221CE /* NKVPhonePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC15BE6B74288CDCC400DC4F1B084A4 /* NKVPhonePicker-dummy.m */; };
+		CF085F14380E5E0CB33AC36BF8AF90A2 /* TextFieldWithPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919BC17AE08A83157D43B8BF96343261 /* TextFieldWithPattern.swift */; };
+		D05D61D0C76A531B99C03A3AA57B963F /* Pods-SurpriseMeTestTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C6DAFECF0108819589598A80CC589E /* Pods-SurpriseMeTestTask-dummy.m */; };
+		D33C693E3BB6DFCF86499CCEC4D80452 /* NKVPhonePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D07508E7D7545FAA8D35262F493F3FE5 /* NKVPhonePicker-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFEA93ABDE9563078124401FE2A77693 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B8F30AEA8EFC626AFD9CF8D056CEE2 /* CountryCode.swift */; };
+		FF4F7A38BE83E6DF1A05443FCCB8F7A4 /* NKVPhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B0E26A035CFCF917147CE1297E37E /* NKVPhoneFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7440E5DC575936C86E0F1268FB626C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B3E64645ABF38D16FF000D9E6EB71E4;
+			remoteInfo = NKVPhonePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A2F74A0519BEE46EC922306A13C285 /* NKVPhonePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKVPhonePicker.debug.xcconfig; sourceTree = "<group>"; };
+		1135368E9F2FB422FD713CD6670748A6 /* NKVLocalizationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVLocalizationHelper.swift; path = Sources/Helpers/NKVLocalizationHelper.swift; sourceTree = "<group>"; };
+		16EB0D1CF106E851A1F10EF8DF0BD885 /* NKVPhonePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKVPhonePicker.modulemap; sourceTree = "<group>"; };
+		17C5963B57EC9B944CC6A9EBEBDF4DB4 /* Pods-SurpriseMeTestTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SurpriseMeTestTask-umbrella.h"; sourceTree = "<group>"; };
+		1E6CA7B6421CB86953FAE96CCC124D14 /* NKVSourcesHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVSourcesHelper.swift; path = Sources/Helpers/NKVSourcesHelper.swift; sourceTree = "<group>"; };
+		2218EDAE9A4C4A450DA3729F56CA8091 /* libNKVPhonePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNKVPhonePicker.a; path = libNKVPhonePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		249B0E26A035CFCF917147CE1297E37E /* NKVPhoneFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVPhoneFormatter.swift; path = Sources/Helpers/NKVPhoneFormatter.swift; sourceTree = "<group>"; };
+		262C2C0B4535ABD920E6DB6E0DD7EB4B /* Pods-SurpriseMeTestTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SurpriseMeTestTask.modulemap"; sourceTree = "<group>"; };
+		26E40A559EDC487FE891971F67EC3780 /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Country.swift; path = Sources/Models/Country.swift; sourceTree = "<group>"; };
+		3496563406DE78A6EED29D8A01736566 /* CountriesViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CountriesViewController.storyboard; path = Sources/Bundle/CountriesViewController.storyboard; sourceTree = "<group>"; };
+		3A7D6F5CA016A6FDE02A27E27FF1956C /* PhoneExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneExtension.swift; path = Sources/Models/PhoneExtension.swift; sourceTree = "<group>"; };
+		3F73914465BDDA340CC369583D5811CE /* NKVSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVSource.swift; path = Sources/Models/NKVSource.swift; sourceTree = "<group>"; };
+		44862758F9CDEAE2E7FD8CAB9415E935 /* Pods-SurpriseMeTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SurpriseMeTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		5031C920B441F4DB16733B9883CAD32D /* NKVFlagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVFlagView.swift; path = Sources/Main/NKVFlagView.swift; sourceTree = "<group>"; };
+		55A90BB9505E1BDB78B7F5CFF42A60C2 /* Pods-SurpriseMeTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SurpriseMeTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		695C0A5BEBE0BF5F0D7EC0EF76B6F200 /* libPods-SurpriseMeTestTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SurpriseMeTestTask.a"; path = "libPods-SurpriseMeTestTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C6DAFECF0108819589598A80CC589E /* Pods-SurpriseMeTestTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SurpriseMeTestTask-dummy.m"; sourceTree = "<group>"; };
+		77B8F30AEA8EFC626AFD9CF8D056CEE2 /* CountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = Sources/Models/CountryCode.swift; sourceTree = "<group>"; };
+		8EC15BE6B74288CDCC400DC4F1B084A4 /* NKVPhonePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKVPhonePicker-dummy.m"; sourceTree = "<group>"; };
+		919BC17AE08A83157D43B8BF96343261 /* TextFieldWithPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldWithPattern.swift; path = Sources/Main/TextFieldWithPattern.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC897BD58A7D0341C9B1D5C7143E4D46 /* NKVPhonePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKVPhonePicker-prefix.pch"; sourceTree = "<group>"; };
+		C57EAC974FEDC7BBE8846F8E7452CBA4 /* Countries.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Countries.bundle; path = Sources/Bundle/Countries.bundle; sourceTree = "<group>"; };
+		C6168523FC9FDA6D434061CCF1FE2177 /* NKVPhonePickerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVPhonePickerPresenter.swift; path = Sources/Main/NKVPhonePickerPresenter.swift; sourceTree = "<group>"; };
+		C6BB70C18C8BF18B7152ECC7328809B4 /* Pods-SurpriseMeTestTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SurpriseMeTestTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D07508E7D7545FAA8D35262F493F3FE5 /* NKVPhonePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKVPhonePicker-umbrella.h"; sourceTree = "<group>"; };
+		D982A48C7C0CF351932B5129884BFD41 /* NKVPhonePickerTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKVPhonePickerTextField.swift; path = Sources/Main/NKVPhonePickerTextField.swift; sourceTree = "<group>"; };
+		E227D5AF487057EF100C1875CD7ACA6D /* CountriesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountriesViewController.swift; path = Sources/Main/CountriesViewController.swift; sourceTree = "<group>"; };
+		E2D7787112C27BB08A6BE7887B13CBF6 /* NKVPhonePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKVPhonePicker.release.xcconfig; sourceTree = "<group>"; };
+		E413C08C852042EB873054D365343417 /* Pods-SurpriseMeTestTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SurpriseMeTestTask-resources.sh"; sourceTree = "<group>"; };
+		EFB4E8630150C8F8C9FE8B54036A13C5 /* Pods-SurpriseMeTestTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SurpriseMeTestTask-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4848613C137802F5DA4FC19646F8BDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F878C2F463CAD0709C61F3FCC1E140B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCEBF1340F6459D8BAB7218072D8038 /* Pods-SurpriseMeTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				262C2C0B4535ABD920E6DB6E0DD7EB4B /* Pods-SurpriseMeTestTask.modulemap */,
+				C6BB70C18C8BF18B7152ECC7328809B4 /* Pods-SurpriseMeTestTask-acknowledgements.markdown */,
+				EFB4E8630150C8F8C9FE8B54036A13C5 /* Pods-SurpriseMeTestTask-acknowledgements.plist */,
+				71C6DAFECF0108819589598A80CC589E /* Pods-SurpriseMeTestTask-dummy.m */,
+				E413C08C852042EB873054D365343417 /* Pods-SurpriseMeTestTask-resources.sh */,
+				17C5963B57EC9B944CC6A9EBEBDF4DB4 /* Pods-SurpriseMeTestTask-umbrella.h */,
+				55A90BB9505E1BDB78B7F5CFF42A60C2 /* Pods-SurpriseMeTestTask.debug.xcconfig */,
+				44862758F9CDEAE2E7FD8CAB9415E935 /* Pods-SurpriseMeTestTask.release.xcconfig */,
+			);
+			name = "Pods-SurpriseMeTestTask";
+			path = "Target Support Files/Pods-SurpriseMeTestTask";
+			sourceTree = "<group>";
+		};
+		393893DEA14816AB541D69AC6B1B241C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2218EDAE9A4C4A450DA3729F56CA8091 /* libNKVPhonePicker.a */,
+				695C0A5BEBE0BF5F0D7EC0EF76B6F200 /* libPods-SurpriseMeTestTask.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7E7E39D13DF15D40E8F9BC5066F046 /* NKVPhonePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E227D5AF487057EF100C1875CD7ACA6D /* CountriesViewController.swift */,
+				26E40A559EDC487FE891971F67EC3780 /* Country.swift */,
+				77B8F30AEA8EFC626AFD9CF8D056CEE2 /* CountryCode.swift */,
+				5031C920B441F4DB16733B9883CAD32D /* NKVFlagView.swift */,
+				1135368E9F2FB422FD713CD6670748A6 /* NKVLocalizationHelper.swift */,
+				249B0E26A035CFCF917147CE1297E37E /* NKVPhoneFormatter.swift */,
+				C6168523FC9FDA6D434061CCF1FE2177 /* NKVPhonePickerPresenter.swift */,
+				D982A48C7C0CF351932B5129884BFD41 /* NKVPhonePickerTextField.swift */,
+				3F73914465BDDA340CC369583D5811CE /* NKVSource.swift */,
+				1E6CA7B6421CB86953FAE96CCC124D14 /* NKVSourcesHelper.swift */,
+				3A7D6F5CA016A6FDE02A27E27FF1956C /* PhoneExtension.swift */,
+				919BC17AE08A83157D43B8BF96343261 /* TextFieldWithPattern.swift */,
+				D688A7F79CFCFB2B97C25F08FD44B21E /* Resources */,
+				64DF829E0FA6B9032BC51E3533D1675A /* Support Files */,
+			);
+			name = NKVPhonePicker;
+			path = NKVPhonePicker;
+			sourceTree = "<group>";
+		};
+		4F89555FA49E2B411F98B3DCF129CFB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D7E7E39D13DF15D40E8F9BC5066F046 /* NKVPhonePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64DF829E0FA6B9032BC51E3533D1675A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EB0D1CF106E851A1F10EF8DF0BD885 /* NKVPhonePicker.modulemap */,
+				8EC15BE6B74288CDCC400DC4F1B084A4 /* NKVPhonePicker-dummy.m */,
+				AC897BD58A7D0341C9B1D5C7143E4D46 /* NKVPhonePicker-prefix.pch */,
+				D07508E7D7545FAA8D35262F493F3FE5 /* NKVPhonePicker-umbrella.h */,
+				00A2F74A0519BEE46EC922306A13C285 /* NKVPhonePicker.debug.xcconfig */,
+				E2D7787112C27BB08A6BE7887B13CBF6 /* NKVPhonePicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NKVPhonePicker";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4F89555FA49E2B411F98B3DCF129CFB7 /* Pods */,
+				393893DEA14816AB541D69AC6B1B241C /* Products */,
+				DEE3BBA0FC82E72FB55E27EB0635DBF7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D688A7F79CFCFB2B97C25F08FD44B21E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C57EAC974FEDC7BBE8846F8E7452CBA4 /* Countries.bundle */,
+				3496563406DE78A6EED29D8A01736566 /* CountriesViewController.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEE3BBA0FC82E72FB55E27EB0635DBF7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEBF1340F6459D8BAB7218072D8038 /* Pods-SurpriseMeTestTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7166BD433D2387236073F0572592CEA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8939CD0ADEF4D15D39319531E92A71B4 /* Pods-SurpriseMeTestTask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AFC05237902AF641D1616527F13347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33C693E3BB6DFCF86499CCEC4D80452 /* NKVPhonePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0472F3587D4B2473EC2708C1319B7E2D /* Pods-SurpriseMeTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1824EDCF40CBB40D2B3A2CF8813B115 /* Build configuration list for PBXNativeTarget "Pods-SurpriseMeTestTask" */;
+			buildPhases = (
+				7166BD433D2387236073F0572592CEA6 /* Headers */,
+				127EB72DAFDA06613CBB302FF3669DAB /* Sources */,
+				4848613C137802F5DA4FC19646F8BDA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				530130346745B660E8BB9468F91E49F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SurpriseMeTestTask";
+			productName = "Pods-SurpriseMeTestTask";
+			productReference = 695C0A5BEBE0BF5F0D7EC0EF76B6F200 /* libPods-SurpriseMeTestTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0B3E64645ABF38D16FF000D9E6EB71E4 /* NKVPhonePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC765CDB16167265B6535EE34B78F2F9 /* Build configuration list for PBXNativeTarget "NKVPhonePicker" */;
+			buildPhases = (
+				E0AFC05237902AF641D1616527F13347 /* Headers */,
+				01C9DACAF332CE2D9FC04EF1908522B8 /* Sources */,
+				F878C2F463CAD0709C61F3FCC1E140B0 /* Frameworks */,
+				C9F2FCF026CD847CD4CA263B43BA0854 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKVPhonePicker;
+			productName = NKVPhonePicker;
+			productReference = 2218EDAE9A4C4A450DA3729F56CA8091 /* libNKVPhonePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 393893DEA14816AB541D69AC6B1B241C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B3E64645ABF38D16FF000D9E6EB71E4 /* NKVPhonePicker */,
+				0472F3587D4B2473EC2708C1319B7E2D /* Pods-SurpriseMeTestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9F2FCF026CD847CD4CA263B43BA0854 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/NKVPhonePicker/NKVPhonePicker.modulemap",
+				"${PODS_ROOT}/Headers/Public/NKVPhonePicker/NKVPhonePicker-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/NKVPhonePicker-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NKVPhonePicker/NKVPhonePicker.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NKVPhonePicker/NKVPhonePicker-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C9DACAF332CE2D9FC04EF1908522B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8F646A27098DAB40F02F90989044D5 /* CountriesViewController.swift in Sources */,
+				097A10ADD4897408AC6975618222A3BB /* Country.swift in Sources */,
+				EFEA93ABDE9563078124401FE2A77693 /* CountryCode.swift in Sources */,
+				33737DFC422ABC2E21F0A65FF7009961 /* NKVFlagView.swift in Sources */,
+				07F66F2E053E394BC5996383E2C4D05B /* NKVLocalizationHelper.swift in Sources */,
+				FF4F7A38BE83E6DF1A05443FCCB8F7A4 /* NKVPhoneFormatter.swift in Sources */,
+				C4451C3E7A70F8CEC3EDF9275E5221CE /* NKVPhonePicker-dummy.m in Sources */,
+				284EF6589A90AA736CA11FAF3802AB1F /* NKVPhonePickerPresenter.swift in Sources */,
+				A607C81C6C5E398A8BD59791A37F264B /* NKVPhonePickerTextField.swift in Sources */,
+				03DA861EAEED1F45BAE1BD6833B3FFB7 /* NKVSource.swift in Sources */,
+				0821FEFA1FDD4593C45095BD098AFA0C /* NKVSourcesHelper.swift in Sources */,
+				516F472AACEDE47AABD14D83EE5CA88A /* PhoneExtension.swift in Sources */,
+				CF085F14380E5E0CB33AC36BF8AF90A2 /* TextFieldWithPattern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		127EB72DAFDA06613CBB302FF3669DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D61D0C76A531B99C03A3AA57B963F /* Pods-SurpriseMeTestTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		530130346745B660E8BB9468F91E49F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NKVPhonePicker;
+			target = 0B3E64645ABF38D16FF000D9E6EB71E4 /* NKVPhonePicker */;
+			targetProxy = 7440E5DC575936C86E0F1268FB626C83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00502EFE35AC1411322C9C5F43A26168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D7787112C27BB08A6BE7887B13CBF6 /* NKVPhonePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NKVPhonePicker/NKVPhonePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/NKVPhonePicker/NKVPhonePicker.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NKVPhonePicker;
+				PRODUCT_NAME = NKVPhonePicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		302455C0652D38AC06E7EC32C8A21DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44862758F9CDEAE2E7FD8CAB9415E935 /* Pods-SurpriseMeTestTask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54021A6E80BCCAE02DD84F52D4C80A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A90BB9505E1BDB78B7F5CFF42A60C2 /* Pods-SurpriseMeTestTask.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F2D210F68FE79ED3802FD2496CB53FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A2F74A0519BEE46EC922306A13C285 /* NKVPhonePicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NKVPhonePicker/NKVPhonePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/NKVPhonePicker/NKVPhonePicker.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NKVPhonePicker;
+				PRODUCT_NAME = NKVPhonePicker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC765CDB16167265B6535EE34B78F2F9 /* Build configuration list for PBXNativeTarget "NKVPhonePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D210F68FE79ED3802FD2496CB53FED /* Debug */,
+				00502EFE35AC1411322C9C5F43A26168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1824EDCF40CBB40D2B3A2CF8813B115 /* Build configuration list for PBXNativeTarget "Pods-SurpriseMeTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54021A6E80BCCAE02DD84F52D4C80A94 /* Debug */,
+				302455C0652D38AC06E7EC32C8A21DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

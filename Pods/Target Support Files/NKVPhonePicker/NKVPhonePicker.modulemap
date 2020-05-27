@@ -1,0 +1,6 @@
+module NKVPhonePicker {
+  umbrella header "NKVPhonePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
