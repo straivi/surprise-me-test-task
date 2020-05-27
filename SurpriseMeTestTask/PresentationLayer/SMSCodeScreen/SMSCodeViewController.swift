@@ -135,7 +135,7 @@ extension SMSCodeViewController: UITextFieldDelegate{
       
       if textField == txtOTP4 {
         txtOTP4.resignFirstResponder()
-        dissmissAnimation()
+        fakeCorrectCodeCheck()
       }
       
       textField.text = string
@@ -162,8 +162,6 @@ extension SMSCodeViewController: UITextFieldDelegate{
     }
     return true
   }
-  
-  
   
 }
 
@@ -194,4 +192,13 @@ extension SMSCodeViewController: UIViewControllerTransitioningDelegate{
   }
   
   
+}
+
+extension SMSCodeViewController{
+  func fakeCorrectCodeCheck(){
+    Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (timer) in
+      self.dissmissAnimation()
+    }
+    
+  }
 }

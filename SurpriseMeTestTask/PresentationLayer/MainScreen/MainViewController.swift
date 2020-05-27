@@ -23,13 +23,14 @@ class MainViewController: UIViewController {
   @IBOutlet weak var trackImageView: UIImageView!
   @IBOutlet weak var confirmeButtonView: UIButton!
   @IBOutlet weak var countryCodeButtonView: UIButton!
+  @IBOutlet weak var aditionButtonView: UIButton!
   @IBOutlet weak var phonenumberTextField: UITextField!
   @IBOutlet weak var countryCodeTextField: UITextField!
   @IBOutlet weak var aditionalSingupStack: UIStackView!
   @IBOutlet weak var roundTopView: UIView!
+  @IBOutlet weak var bottomSinginStackCon: NSLayoutConstraint!
   var countryImage: UIImage!
   var countryCode: String!
-  fileprivate var backgroundHeightAnchor: NSLayoutConstraint!
   
   //MARK: Dependencies
   let trackImageService: ITrackImageService = ServiceAssembly(coreAssembly: CoreAssembly()).trackImageService
@@ -67,6 +68,7 @@ class MainViewController: UIViewController {
     setupPhonenumberTextfield()
     setupCountryCode()
   }
+
   
   func setupPullLabel(){
     pullLabelView.layer.cornerRadius = pullLabelView.frame.height / 2
@@ -87,18 +89,9 @@ class MainViewController: UIViewController {
   func setupScrollView(){
     scrollView.delaysContentTouches = false
     scrollView.translatesAutoresizingMaskIntoConstraints = false
-    scrollView.isScrollEnabled = false
   }
   func setupBackgroundView(){
     roundTopView.layer.cornerRadius = 0.1 * backgroundView.frame.width
-    backgroundView.translatesAutoresizingMaskIntoConstraints = false
-    
-    NSLayoutConstraint.activate([
-      backgroundView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -view.safeAreaInsets.bottom)
-    ])
-    
-    backgroundHeightAnchor = backgroundView.heightAnchor.constraint(equalTo: view.layoutMarginsGuide.heightAnchor, constant: view.safeAreaInsets.bottom - 50)
-    backgroundHeightAnchor.isActive = true
   }
   func setupTrackImageView(){
     trackImageView.layer.cornerRadius = 0.05 * trackImageView.frame.height
@@ -135,8 +128,6 @@ class MainViewController: UIViewController {
       countryCodeButtonView.setImage(baseCountry?.flag, for: .normal)
     }
   }
-  func setupAditionaly(){
-  }
   func setupDelegate(){
     self.phonenumberTextField.delegate = self
   }
@@ -168,6 +159,80 @@ class MainViewController: UIViewController {
     present(countryCodeViewController, animated: true, completion: nil)
   }
   @IBAction func adidionalButtonAction(_ sender: UIButton) {
+    let beforeResizeBackground = backgroundView.frame.height
+    
+    setupLayoutChange()
+    
+    let afterResizeBackground = backgroundView.frame.height
+    let sizeDiference = afterResizeBackground - beforeResizeBackground
+    scrollView.contentSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height + sizeDiference)
+    
+    aditionButtonView.isUserInteractionEnabled = false
+    
+    UIView.animate(withDuration: 0.3) {
+      self.scrollView.contentOffset = CGPoint(x: 0, y: sizeDiference)
+    }
+  }
+  
+  func setupLayoutChange(){
+    let b1 = createAditionButton(title: "phone number")
+    let b2 = createAditionButton(title: "Google")
+    let b3 = createAditionButton(title: "Apple")
+    let b4 = createAditionButton(title: "Facebook")
+    
+    bottomSinginStackCon.isActive = false
+    
+    backgroundView.addSubview(b1)
+    backgroundView.addSubview(b2)
+    backgroundView.addSubview(b3)
+    backgroundView.addSubview(b4)
+    
+    aditionalSingupStack.translatesAutoresizingMaskIntoConstraints = false
+    backgroundView.translatesAutoresizingMaskIntoConstraints = false
+    
+    NSLayoutConstraint.activate([
+      b1.topAnchor.constraint(equalTo: aditionalSingupStack.bottomAnchor, constant: 30),
+      b1.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 60),
+      b1.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -60),
+      b1.heightAnchor.constraint(equalToConstant: 40)
+    ])
+    
+    NSLayoutConstraint.activate([
+      b2.topAnchor.constraint(equalTo: b1.bottomAnchor, constant: 30),
+      b2.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 60),
+      b2.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -60),
+      b2.heightAnchor.constraint(equalToConstant: 40)
+    ])
+    
+    NSLayoutConstraint.activate([
+      b3.topAnchor.constraint(equalTo: b2.bottomAnchor, constant: 30),
+      b3.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 60),
+      b3.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -60),
+      b3.heightAnchor.constraint(equalToConstant: 40)
+    ])
+    
+    NSLayoutConstraint.activate([
+      b4.topAnchor.constraint(equalTo: b3.bottomAnchor, constant: 30),
+      b4.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 60),
+      b4.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -60),
+      b4.bottomAnchor.constraint(equalTo: backgroundView.bottomAnchor, constant: -50),
+      b4.heightAnchor.constraint(equalToConstant: 40),
+    ])
+    
+    view.setNeedsLayout()
+    view.layoutIfNeeded()
+  }
+  
+  func createAditionButton(title: String) -> UIButton{
+    let button = UIButton(type: .system)
+    button.layer.cornerRadius = 5
+    button.layer.borderWidth = 1
+    button.layer.borderColor = UIColor.black.cgColor
+    let finishTitle = "Sing in with \(title)"
+    button.setTitle(finishTitle, for: .normal)
+    button.setTitleColor(.black, for: .normal)
+    button.translatesAutoresizingMaskIntoConstraints = false
+    return button
   }
   
   func sbInitViewController<T>(_: T) -> T{

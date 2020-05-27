@@ -96,7 +96,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2o-op-9eC">
-                                                        <rect key="frame" x="139" y="41.5" width="42" height="85"/>
+                                                        <rect key="frame" x="50" y="41.5" width="220" height="85"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="85" id="YeO-xO-qf9"/>
                                                         </constraints>
@@ -110,10 +110,12 @@
                                                     <constraint firstItem="oAU-Qe-kBO" firstAttribute="top" secondItem="s2o-op-9eC" secondAttribute="bottom" constant="40" id="9Ya-NE-fiM"/>
                                                     <constraint firstItem="oAU-Qe-kBO" firstAttribute="top" secondItem="cZu-7W-5gP" secondAttribute="bottom" constant="140" id="DRf-nQ-3lQ"/>
                                                     <constraint firstItem="cZu-7W-5gP" firstAttribute="centerX" secondItem="6yN-3u-V8X" secondAttribute="centerX" id="FAz-qW-4yZ"/>
+                                                    <constraint firstItem="s2o-op-9eC" firstAttribute="leading" secondItem="6yN-3u-V8X" secondAttribute="leading" constant="50" id="Phk-L6-FkS"/>
                                                     <constraint firstItem="cZu-7W-5gP" firstAttribute="top" secondItem="6yN-3u-V8X" secondAttribute="top" id="VYA-g4-BMn"/>
                                                     <constraint firstItem="s2o-op-9eC" firstAttribute="top" secondItem="cZu-7W-5gP" secondAttribute="bottom" constant="15" id="YNo-Qc-TTE"/>
                                                     <constraint firstAttribute="bottom" secondItem="ZG9-Vc-kXu" secondAttribute="bottom" constant="30" id="ZDU-AN-f90"/>
                                                     <constraint firstAttribute="trailing" secondItem="oAU-Qe-kBO" secondAttribute="trailing" constant="60" id="cc7-TK-Mlz"/>
+                                                    <constraint firstAttribute="trailing" secondItem="s2o-op-9eC" secondAttribute="trailing" constant="50" id="j1i-3w-zyL"/>
                                                     <constraint firstItem="s2o-op-9eC" firstAttribute="centerX" secondItem="6yN-3u-V8X" secondAttribute="centerX" id="mys-zd-X5L"/>
                                                     <constraint firstItem="oAU-Qe-kBO" firstAttribute="leading" secondItem="6yN-3u-V8X" secondAttribute="leading" constant="60" id="owI-ZR-hHu"/>
                                                     <constraint firstItem="ZG9-Vc-kXu" firstAttribute="top" secondItem="oAU-Qe-kBO" secondAttribute="bottom" constant="26" id="rj0-lg-txb"/>

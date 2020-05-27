@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DC2574995037E4DB8677DC2 /* Pods_SurpriseMeTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC187446A691271D759BDA2C /* Pods_SurpriseMeTestTask.framework */; };
+		8F2EB4F10F62A1DD8BB47A2A /* libPods-SurpriseMeTestTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A133379909F82BB5DE03CF88 /* libPods-SurpriseMeTestTask.a */; };
 		BA06440624730A96001C95DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440524730A96001C95DB /* AppDelegate.swift */; };
 		BA06440824730A96001C95DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440724730A96001C95DB /* SceneDelegate.swift */; };
 		BA06440A24730A96001C95DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06440924730A96001C95DB /* ViewController.swift */; };
@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9070B680152CB660AFE5D722 /* Pods-SurpriseMeTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurpriseMeTestTask.release.xcconfig"; path = "Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		A133379909F82BB5DE03CF88 /* libPods-SurpriseMeTestTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SurpriseMeTestTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA06440224730A96001C95DB /* SurpriseMeTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurpriseMeTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA06440524730A96001C95DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA06440724730A96001C95DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		BA6416F5247AE582000D94AE /* SMSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSRequest.swift; sourceTree = "<group>"; };
 		BA6416F7247B11C5000D94AE /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
 		BA6416F9247B11CE000D94AE /* SMSCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SMSCodeViewController.storyboard; sourceTree = "<group>"; };
+		BA6416FB247C74E3000D94AE /* NKVPhonePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NKVPhonePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD518AF247951970045BE75 /* CountryCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeViewController.swift; sourceTree = "<group>"; };
 		BAD518B1247951BF0045BE75 /* CountryCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryCodeViewController.storyboard; sourceTree = "<group>"; };
 		BADAB74724749FF5005562A9 /* IURLNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IURLNetworkService.swift; sourceTree = "<group>"; };
@@ -69,7 +71,6 @@
 		BADAB758247541CE005562A9 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		BADAB75A24754420005562A9 /* TrackImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackImageService.swift; sourceTree = "<group>"; };
 		F135E510F3001D93AB879E65 /* Pods-SurpriseMeTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurpriseMeTestTask.debug.xcconfig"; path = "Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask.debug.xcconfig"; sourceTree = "<group>"; };
-		FC187446A691271D759BDA2C /* Pods_SurpriseMeTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurpriseMeTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DC2574995037E4DB8677DC2 /* Pods_SurpriseMeTestTask.framework in Frameworks */,
+				8F2EB4F10F62A1DD8BB47A2A /* libPods-SurpriseMeTestTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +88,8 @@
 		46B0D01E2CCE499E36299D0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC187446A691271D759BDA2C /* Pods_SurpriseMeTestTask.framework */,
+				BA6416FB247C74E3000D94AE /* NKVPhonePicker.framework */,
+				A133379909F82BB5DE03CF88 /* libPods-SurpriseMeTestTask.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -269,7 +271,7 @@
 				BA0643FE24730A96001C95DB /* Sources */,
 				BA0643FF24730A96001C95DB /* Frameworks */,
 				BA06440024730A96001C95DB /* Resources */,
-				5D0D60032C98B3F12B69F70A /* [CP] Embed Pods Frameworks */,
+				11A4E6B61340828A8134D9F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +331,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11A4E6B61340828A8134D9F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		19F79450DA797390E9DD22A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,23 +368,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D0D60032C98B3F12B69F70A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SurpriseMeTestTask/Pods-SurpriseMeTestTask-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

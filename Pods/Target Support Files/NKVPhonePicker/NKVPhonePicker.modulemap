@@ -1,4 +1,4 @@
-framework module NKVPhonePicker {
+module NKVPhonePicker {
   umbrella header "NKVPhonePicker-umbrella.h"
 
   export *
